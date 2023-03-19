@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../sitio"
+	},
+	{
+		"path": "../../ejercicios_closter"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "proyecto02_closter"
+  }
+}

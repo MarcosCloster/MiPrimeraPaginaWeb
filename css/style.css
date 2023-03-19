@@ -1,0 +1,297 @@
+body {
+  background-image: url(../img/starwars-fotos/fondo12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+}
+
+/*div{
+	background-color:#C9F;
+	margin-bottom:30px;
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:30px;
+}*/
+
+main {
+  float: left;
+  min-width: 1500px;
+  min-height: auto;
+  padding: 1px;
+}
+
+header {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  height: 100px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  
+}
+
+#starwars{
+padding-top: 15px;
+font-family: 'Alfa Slab One', cursive;
+ 
+}
+
+nav {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  min-height: 50px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  justify-content: center;
+  display: flex;
+}
+
+#izquierda {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  float: left;
+  min-height: 200px;
+  min-width: 1440px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*#derecha {
+  background-color: rgb(255, 255, 255);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  float: left;
+  min-height: 500px;
+  min-width: 400px;
+}
+
+
+footer {
+  background-color: black;
+  margin-top: 30px;
+  clear: both;
+  height: 160px;
+  margin-bottom: 30px;
+  
+  
+}
+footer a{
+
+  height: 50px;
+  margin-top: 100px;
+  width: auto;
+  float: left;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 50px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+#redes_footer{
+
+  
+  background-color: rgba(255, 0, 162, 0.4);
+  width:255px;
+  height: 70px;
+  float: right;
+  margin: 15px 30px 0 0; #0a141d
+
+}
+*/
+
+.pie-pagina{
+
+  display: block;
+  width: auto;
+  background-color: rgba(23, 40, 75, 0.6); 
+  height: 400px;
+  clear: both;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+}
+
+.pie-pagina .grupo-1{
+
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 figure{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.pie-pagina .grupo-1 figure img{
+
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 100px;
+
+}
+
+.pie-pagina .grupo-1 .box h2{
+
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+
+}
+
+.pie-pagina .grupo-1 .box p{
+
+  
+  margin-bottom: 10px;
+  color: white;
+  font-size: 17px;
+  
+
+}
+
+.pie-pagina .grupo-1 .box a{
+
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.pie-pagina .grupo-1 .red-social a{
+
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  border-radius: 20%;
+  text-align: center;
+  transition: all 300ms ease;
+
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+
+  color: aqua;
+
+}
+
+.pie-pagina .grupo-2{
+
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.pie-pagina .grupo-2{
+
+  font-size: 15px;
+
+}
+
+nav a {
+  
+  height: 50px;
+  width: 205px;
+  float: left;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  
+}
+
+#logo {
+  background-color: aquamarine;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 15px 0 0 30px;
+  border-radius: 50%;
+  background-image: url(../img/starwars-fotos/logo3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+#redes {
+  
+  width:255px;
+  height: 70px;
+  float: right;
+  margin: 15px 30px 0 0;
+  
+}
+
+#redes a {
+  width: 45px;
+  height: 45px;
+  background-color: brown;
+  margin: 12.5px 0 0 15px;
+  float: left;
+  border-radius: 20%;
+  display: block;
+
+  
+}
+
+.facebook {
+  background-image: url(../img/redes-sociales/facebook.png);
+}
+.twitter {
+  background-image: url(../img/redes-sociales/twitter.png);
+}
+.pinterest {
+  background-image: url(../img/redes-sociales/pinterest.png);
+}
+.youtube {
+  background-image:url(../img/redes-sociales/youtube.png) ;
+}
+
+
+
